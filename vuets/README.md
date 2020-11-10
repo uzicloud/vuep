@@ -1,18 +1,24 @@
-### 初始原因
-vuets 是一个初始化的的 vue 项目，可以使用 `vue create vuets` 来创建，语言使用TypeScript，如果需要js，见 vuejs 项目
+# vuets
 
-但是，在有些环境下，如安全控制非常严格的环境中，`vue create` 命令是不能使用的，于是我建立了这个初始化的工程以供下载
+## Project setup
+```
+npm install
+```
 
-### 使用方法
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
 
-#### 克隆项目到本地目录
-`git clone git@github.com:uzicloud/InitProjects.git`
+### Compiles and minifies for production
+```
+npm run build
+```
 
-#### 进入vuets文件夹
-`cd InitProjects/vuets`
+### Lints and fixes files
+```
+npm run lint
+```
 
-#### 安装js依赖包
-`npm install`
-
-#### 运行项目
-`npm run serve`
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
